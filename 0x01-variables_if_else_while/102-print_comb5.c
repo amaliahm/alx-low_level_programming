@@ -28,14 +28,14 @@ int main(void)
 				if (one != 98 || two != 90)
 				{
 					putchar (',');
-					putchar(" ");
+					putchar(' ');
 				}
 			}
 			two++;
 		}
-		one++
+		one++;
 	}
-	putchar("\n");
+	putchar('\n');
 
 	return (0);
 }
