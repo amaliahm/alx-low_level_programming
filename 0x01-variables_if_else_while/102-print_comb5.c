@@ -17,7 +17,7 @@ int main(void)
 		two = one;
 		while (two <= 99)
 		{
-			if (one != two)
+			if (one < two)
 			{
 				putchar((one / 10) +  48);
 				putchar((one % 10) + 48);
@@ -25,7 +25,7 @@ int main(void)
 				putchar((two / 10) + 48);
 				putchar((two % 10) + 48);
 
-				if (one != 98 || two != 90)
+				if (one != 98 || two != 99)
 				{
 					putchar (',');
 					putchar(' ');
