@@ -24,8 +24,8 @@ int main(void)
 
 				if (one + two != 17)
 				{
-					putchar(",");
-					putchar(" ");
+					putchar(',');
+					putchar(' ');
 				}
 			}
 			two++;
