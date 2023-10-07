@@ -22,23 +22,23 @@ int main(void)
 			{
 				if (one != two && two != three && one < two && two < three)
 				{
-					putchar(one  48);
+					putchar(one +  48);
 					putchar(two + 48);
 					putchar(three + 48);
 
 					if (one + two + three != 24)
 					{
 						putchar (',');
-						putchar(" ");
+						putchar(' ');
 					}
 				}
 				three++;
 			}
 			two++;
 		}
-		one++
+		one++;
 	}
-	putchar("\n");
+	putchar('\n');
 
 	return (0);
 }
