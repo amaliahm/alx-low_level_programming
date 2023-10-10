@@ -14,7 +14,7 @@ int main(void)
 	int count;
 	unsigned long one = 0, two = 1, sum;
 
-	for (count = 0; count < 50; count ++)
+	for (count = 0; count < 50; count++)
 	{
 		sum = one + two;
 		printf("%lu", sum);
