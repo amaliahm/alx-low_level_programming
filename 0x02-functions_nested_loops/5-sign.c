@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_sign - print + if number is positiove and 0 if it is null 
+ * print_sign - print + if number is positiove and 0 if it is null
  *            and - if negative
  *
  * @n: takes integer type input for function
@@ -25,7 +25,7 @@ int print_sign(int n)
 		_putchar(48);
 		return (0);
 	}
-	else 
+	else
 	{
 		_putchar(45);
 		return (-1);
