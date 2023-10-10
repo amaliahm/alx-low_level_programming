@@ -34,7 +34,7 @@ int main(void)
 {
 	int count, init;
 	unsigned long one = 1, two = 2, sum, max = 100000000, fone = 0, ftwo = 0, sumo = 0;
-	for (count = 1, count <= 98, count ++)
+	for (count = 1; count <= 98; count++)
 	{
 		if (fone > 0)
 			printf("%lu", fone);
