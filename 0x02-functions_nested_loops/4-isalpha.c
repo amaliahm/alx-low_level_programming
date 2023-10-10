@@ -3,7 +3,9 @@
 /**
  * _isalpha - checks if character is letter both lowercase or uppercase
  *
- * Description: checks lowercase and uppercase letters
+ * @c: number type integer input for function
+ *
+ * Description: checks if character is lowercase or uppercase letters
  *
  * Return: 1 is c if true else 0
 */
