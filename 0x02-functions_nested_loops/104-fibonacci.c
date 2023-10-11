@@ -11,12 +11,13 @@
 int numLength(int num)
 {
 	int leng = 0;
+
 	if (!num)
 		return (1);
 	while (num)
 	{
 		num = num / 10;
-		leng +=1;
+		leng = leng + 1;
 	}
 
 	return (leng);
@@ -33,7 +34,9 @@ int numLength(int num)
 int main(void)
 {
 	int count, init;
-	unsigned long one = 1, two = 2, sum, max = 100000000, fone = 0, ftwo = 0, sumo = 0;
+	unsigned long one = 1, two = 2, sum;
+	unsigned long max = 100000000, fone = 0, ftwo = 0, sumo = 0;
+
 	for (count = 1; count <= 98; count++)
 	{
 		if (fone > 0)
@@ -45,9 +48,9 @@ int main(void)
 			printf("%d", 0);
 			init--;
 		}
-	
+
 		printf("%lu", one);
-	
+
 		sum = (one + two) % max;
 		sumo = fone + ftwo + (one + two) / max;
 		one = two;
