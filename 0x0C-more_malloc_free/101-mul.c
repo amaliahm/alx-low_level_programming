@@ -5,7 +5,7 @@
  *
  * @str: pointer
  *
- * Return: void
+ * Return: nothing
 */
 
 void _puts(char *str)
