@@ -5,6 +5,8 @@
  *
  * @n: number of arguments
  * @...: the arguments
+
+ * Description : the sum of all the variables arguments
  *
  * Return: int
 */
