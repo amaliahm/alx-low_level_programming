@@ -29,7 +29,7 @@ int str(char *s)
 
 char *str_concat(char *s1, char *s2)
 {
-	int size1, size2, i;
+	int size1, size2, i, j;
 	char *p;
 
 	if (s1 == NULL)
