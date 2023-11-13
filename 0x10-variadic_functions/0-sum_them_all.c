@@ -4,7 +4,7 @@
  * sum_them_all - sums of all the variables argumenst
  *
  * @n: number of arguments
- * @...: the arguments
+ * @token: the arguments
  *
  * Return: int
 */
