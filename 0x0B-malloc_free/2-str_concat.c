@@ -42,9 +42,9 @@ char *str_concat(char *s1, char *s2)
 	if (p == 0)
 		return (0);
 	for (i = 0; i <= (size1 + size2); i++)
-		if ( size1 != NULL && i < size1)
+		if ( size1 != 0 && i < size1)
 			p[i] = s1[i];
-		else if (size2 != NULL)
+		else if (size2 != 0)
 			p[i] = s2[i];
 	p[i] = '\0';
 	return (p);
