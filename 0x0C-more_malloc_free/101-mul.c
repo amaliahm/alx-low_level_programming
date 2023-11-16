@@ -5,10 +5,10 @@
  *
  * @str: pointer
  *
- * Return: void
+ * Return: nothing
 */
 
-vodi _puts(char *str)
+void _puts(char *str)
 {
 	int i = 0;
 
