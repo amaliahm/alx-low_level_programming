@@ -72,10 +72,10 @@ void print_all(const char * const format, ...)
 	char *sp = "";
 	va_list ap;
 	token_t tokens[] = {
-		{'c', format_char},
-		{'i', format_int},
-		{'f', format_f},
-		{'s', format_s},
+		{"c", format_char},
+		{"i", format_int},
+		{"f", format_f},
+		{"s", format_s},
 		{NULL, NULL}
 	};
 	va_start(ap, format);
