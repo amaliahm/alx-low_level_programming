@@ -14,7 +14,7 @@
 
 const listint_t **_r(const listint_t **list, size_t size, const listint_t *new)
 {
-	const listsint_t **add;
+	const listint_t **add;
 	size_t i;
 
 	add = malloc(size * sizeof(listint_t));
