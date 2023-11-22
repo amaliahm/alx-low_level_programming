@@ -1,4 +1,4 @@
-#include "ists.h"
+#include "lists.h"
 
 /**
  * insert_nodeint_at_index - insert node at index position
